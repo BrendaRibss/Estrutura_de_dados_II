@@ -1,4 +1,4 @@
-##Estrutura de Dados 1 
+Estrutura de Dados 1 
 
 1. Vetores (Arrays):
 - Um vetor é uma estrutura que armazena vários elementos do mesmo tipo em posições consecutivas.
