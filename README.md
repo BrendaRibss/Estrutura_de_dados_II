@@ -17,9 +17,7 @@ O repositório poderá conter:
 📂 Outros materiais — arquivos e conteúdos solicitados pela professora ao longo da disciplina.
 
 🗂️ Organização
-A estrutura do repositório será organizada de acordo com os conteúdos trabalhados durante o semestre. Uma possível organização é:
-
-
+A estrutura do repositório será organizada de acordo com os conteúdos trabalhados durante o semestre.
 A organização poderá ser modificada conforme a evolução da disciplina e as atividades solicitadas.
 
 🎯 Objetivo
@@ -27,7 +25,7 @@ Este repositório tem como objetivo centralizar os conteúdos e códigos desenvo
 
 👩‍🏫 Disciplina
 Disciplina: Estrutura de Dados 2
-Professora: Kadidja
+Professora: Kadidja Valeria Reginaldo de Oliveira
 
 📌 Observação: Este é um repositório de estudos. Os códigos e implementações aqui presentes têm finalidade acadêmica e podem ser modificados e aprimorados conforme os conteúdos da disciplina forem avançando.
 
