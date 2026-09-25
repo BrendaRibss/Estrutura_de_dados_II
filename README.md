@@ -1,4 +1,4 @@
-📚 Estrutura de Dados 2
+*📚 Estrutura de Dados 2*
 Repositório destinado à disciplina de Estrutura de Dados 2, ministrada pela professora Kadidja.
 
 Aqui serão reunidos os materiais e atividades desenvolvidos ao longo da disciplina, servindo como um espaço para organização, acompanhamento e consulta dos conteúdos estudados.
