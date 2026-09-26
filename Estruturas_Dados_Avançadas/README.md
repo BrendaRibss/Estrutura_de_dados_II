@@ -101,7 +101,7 @@ Tecla P: Volta para a fase anterior.
 
 👥 **Integrantes do Grupo**
 
-Gustavo Alves,
+Gustavo Alves 
 
 Arthur Bernardo,
 
