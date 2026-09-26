@@ -100,10 +100,15 @@ Tecla P: Volta para a fase anterior.
  └── 📄 README.md                                    # Documentação do projeto
 
 👥 **Integrantes do Grupo**
-Gustavo Alves,  
+
+Gustavo Alves,
+
 Arthur Bernardo,
+
 Kelly da Silva,
+
 Brenda Ribeiro,
+
 Disciplina: Estruturas de Dados II   
 Curso: Ciência da Computação   
 Turma: N1 / Ciência da Computação   
