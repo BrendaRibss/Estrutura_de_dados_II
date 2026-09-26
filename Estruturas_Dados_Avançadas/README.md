@@ -98,11 +98,12 @@ Tecla P: Volta para a fase anterior.
  ├── 📄 Design de Jogos sobre Árvores Avançadas.pdf   # Guia de Atividade Prática / GDD
  ├── 📄 main.py                                      # Código-fonte principal do jogo
  └── 📄 README.md                                    # Documentação do projeto
+
 👥 **Integrantes do Grupo**
-Gustavo Alves  
-Arthur Bernardo
-Kelly da Silva
-Brenda Ribeiro
+Gustavo Alves,  
+Arthur Bernardo,
+Kelly da Silva,
+Brenda Ribeiro,
 Disciplina: Estruturas de Dados II   
 Curso: Ciência da Computação   
 Turma: N1 / Ciência da Computação   
