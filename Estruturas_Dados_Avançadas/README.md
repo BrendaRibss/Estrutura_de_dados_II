@@ -107,7 +107,7 @@ Arthur Bernardo,
 
 Kelly da Silva,
 
-Brenda Ribeiro,
+Brenda Ribeiro.
 
 Disciplina: Estruturas de Dados II   
 Curso: Ciência da Computação   
