@@ -124,6 +124,7 @@ densidade = (2 * arestas) / (n * (n - 1))
 print(f"Densidade: {densidade:.2%}")
 ```
 
+https://colab.research.google.com/drive/1qz_35FZ0PN30GiSo1Q8f3U9BCdnM4MZl?usp=sharing
 ### Entenda o código
 1. `rede` guarda os usuários e suas listas de amigos.
 2. `len(rede)` conta os usuários.
