@@ -136,22 +136,56 @@ print(f"Densidade: {densidade:.2%}")
 Encontre um caminho de Ana até Felipe. Cada passagem por uma linha corresponde a uma aresta.
 
 Exemplo de registro:
-`Ana → __________ → __________ → Felipe`
+`Ana → Bruno → Diego → Felipe`
 
-- Quantas arestas há no caminho? ______
-- Você encontrou outro caminho com a mesma quantidade de arestas? Qual?
+- Quantas arestas há no caminho? 3
+- Você encontrou outro caminho com a mesma quantidade de arestas? Qual? Ana → Carlos → Elisa → Felipe
 
 ________________________________________________________________
 
 ## 10. Desafio em grupo
 Amplie a rede social:
+<img width="486" height="428" alt="Captura de tela 2026-10-23 133641" src="https://github.com/user-attachments/assets/c2973f57-d333-4ba5-accf-ceb766276110" />
+
 1. Adicione pelo menos quatro usuários fictícios.
 2. Crie no mínimo cinco novas amizades.
 3. Atualize a lista de adjacência no Python.
+rede = {
+    "Ana": ["Bruno", "Carla", "Gabriela"],
+    "Bruno": ["Ana", "Carla", "Diego", "Heitor"],
+    "Carla": ["Ana", "Bruno", "Elisa", "Isabela"],
+    "Diego": ["Bruno", "Elisa", "Felipe"],
+    "Elisa": ["Carla", "Diego", "Felipe"],
+    "Felipe": ["Diego", "Elisa", "Joao"],
+    "Gabriela": ["Ana", "Heitor"],
+    "Heitor": ["Bruno", "Gabriela"],
+    "Isabela": ["Carla", "Joao"],
+    "Joao": ["Felipe", "Isabela"]
+}
+
 4. Recalcule os graus, o total de arestas e a densidade.
-5. Compare a densidade antes e depois da ampliação.
-6. Identifique os usuários com mais conexões.
-7. Explique como a rede poderia recomendar uma nova amizade.
+
+| Usuário | Amigos diretos | Grau |
+| Ana    |	Bruno, Carla e Gabriela	    |3
+| Bruno  |	Ana, Carla, Diego e Heitor	|4
+| Carla  |	Ana, Bruno, Elisa e Isabela	|4
+| Diego  |	Bruno, Elisa e Felipe	    |3
+| Elisa  |	Carla, Diego e Felipe	    |3
+| Felipe |	Diego, Elisa e João	        |3
+|Gabriela|	Ana e Heitor	            |2
+| Heitor |	Bruno e Gabriela	        |2
+| Isabela| 	Carla e João	            |2
+| João   |	Felipe e Isabela	        |2
+
+- Total de usuários: 10
+- Total de amizades: 14
+- Soma dos graus: 28
+- Densidade decimal: 0,3111
+- Densidade percentual: 31,11%
+  
+5. Compare a densidade antes e depois da ampliação: A densidade diminuiu pois o número de conexões possíveis aumentou de 15 para 45, pois isso houve uma diminuição proporcional na porcentagem de novas possibilidades de conexões.
+6. Identifique os usuários com mais conexões: Bruno e Carla, os dois com 4 conexões.
+7. Explique como a rede poderia recomendar uma nova amizade: A rede poderia recomedar para todos perfis que tem amizade com alguém que é seguido por uma das pessoas do ciclo de amizade descrito no grafo, para que por meio de conexões a parte eles conseguissem conhecer outras pessoas. Como é feito no instagra, por exemplo.
 
 ## 11. Entrega
 Entregue:
@@ -163,3 +197,5 @@ Entregue:
 
 ## 12. Pergunta de reflexão
 Duas pessoas ainda não são amigas, mas têm três amigos em comum. Como essa informação poderia ser usada para sugerir uma nova conexão? Quais cuidados de privacidade devem ser considerados ao analisar redes sociais?
+
+A rede social poderia sugerir amizade entre essas duas pessoas, já que elas têm três amigos em comum. Mas é importante respeitar a privacidade de cada um, protegendo seus dados e deixando cada pessoa escolher quem pode ver suas informações.
