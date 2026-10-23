@@ -152,7 +152,6 @@ Amplie a rede social:
 2. Crie no mínimo cinco novas amizades.
 3. Atualize a lista de adjacência no Python.
 
-# Nova lista contendo 10 pessoas
 rede = {
     "Ana": ["Bruno", "Carla", "Gabriela"],
     "Bruno": ["Ana", "Carla", "Diego", "Heitor"],
@@ -166,24 +165,21 @@ rede = {
     "Joao": ["Felipe", "Isabela"]
 }
 
-# Quantidade de pessoas
 n = len(rede)
 
-# Grau de cada pessoa
 for usuario, amigos in rede.items():
     print(usuario, "tem", len(amigos), "conexoes")
 
-# Soma dos graus e total de amizades
 soma_graus = sum(len(amigos) for amigos in rede.values())
 arestas = soma_graus // 2
 
 print("Total de usuarios:", n)
 print("Total de amizades:", arestas)
 
-# Densidade do grafo com 10 pessoas
 densidade = (2 * arestas) / (n * (n - 1))
 print(f"Densidade: {densidade:.2%}")
 
+**Link Google Colab:** https://colab.research.google.com/drive/1qz_35FZ0PN30GiSo1Q8f3U9BCdnM4MZl#scrollTo=Hyr3LMCP9mIy
 4. Recalcule os graus, o total de arestas e a densidade.
 
 | Usuário | Amigos diretos | Grau |
