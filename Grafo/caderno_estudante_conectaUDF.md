@@ -184,16 +184,27 @@ print(f"Densidade: {densidade:.2%}")
 4. Recalcule os graus, o total de arestas e a densidade.
 
 | Usuário | Amigos diretos | Grau |
+
 | Ana    |	Bruno, Carla e Gabriela	    |3
+
 | Bruno  |	Ana, Carla, Diego e Heitor	|4
+
 | Carla  |	Ana, Bruno, Elisa e Isabela	|4
+
 | Diego  |	Bruno, Elisa e Felipe	    |3
+
 | Elisa  |	Carla, Diego e Felipe	    |3
+
 | Felipe |	Diego, Elisa e João	        |3
+
 |Gabriela|	Ana e Heitor	            |2
+
 | Heitor |	Bruno e Gabriela	        |2
+
 | Isabela| 	Carla e João	            |2
+
 | João   |	Felipe e Isabela	        |2
+
 
 - Total de usuários: 10
 - Total de amizades: 14
