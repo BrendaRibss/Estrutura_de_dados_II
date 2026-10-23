@@ -41,7 +41,10 @@ As amizades são:
 4. Não desenhe duas linhas para a mesma amizade.
 5. Confira se todas as oito amizades aparecem.
 
-**Espaço para o seu desenho:** faça o grafo no caderno ou em uma ferramenta de desenho.
+**Espaço para o seu desenho:** 
+<img width="569" height="454" alt="Captura de tela 2026-10-23 125745" src="https://github.com/user-attachments/assets/36ddba59-2dc6-4166-9e58-31932b29ae09" />
+
+
 
 ## 5. Passo a passo: calcule o grau
 Conte quantas linhas chegam a cada círculo. Registre o resultado.
