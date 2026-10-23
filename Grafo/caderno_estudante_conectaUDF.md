@@ -42,8 +42,7 @@ As amizades são:
 5. Confira se todas as oito amizades aparecem.
 
 **Espaço para o seu desenho:** 
-<img width="569" height="454" alt="Captura de tela 2026-10-23 125745" src="https://github.com/user-attachments/assets/36ddba59-2dc6-4166-9e58-31932b29ae09" />
-
+<img width="426" height="377" alt="Captura de tela 2026-10-23 131114" src="https://github.com/user-attachments/assets/3b3161ff-7642-4781-8f80-a2135b4831d3" />
 
 
 ## 5. Passo a passo: calcule o grau
@@ -51,15 +50,15 @@ Conte quantas linhas chegam a cada círculo. Registre o resultado.
 
 | Usuário | Amigos diretos | Grau |
 |---|---|---:|
-| Ana | __________________ | ____ |
-| Bruno | __________________ | ____ |
-| Carla | __________________ | ____ |
-| Diego | __________________ | ____ |
-| Elisa | __________________ | ____ |
-| Felipe | __________________ | ____ |
+| Ana    | Bruno e Carla         | 2 |
+| Bruno  | Ana, Carla e Diego    | 3 |
+| Carla  | Ana, Bruno e Elisa    | 3 |
+| Diego  | Bruno, ELisa e Felipe | 3 |
+| Elisa  | Carla,Diego e Felipe  | 3 |
+| Felipe | Diego e Elisa         | 2 |
 
 **Pergunta 1:** quem tem mais conexões diretas?  
-Resposta: __________________________________________________
+Resposta: Bruno, Carla, Diego e ELisa possuem o maior grau, pois cada um tem ligação direta com três amigos.
 
 ## 6. Passo a passo: calcule o número de amizades
 Some todos os graus. Como cada amizade conecta dois usuários, cada aresta é contada duas vezes.
@@ -67,9 +66,9 @@ Some todos os graus. Como cada amizade conecta dois usuários, cada aresta é co
 **Fórmula:**  
 `Número de arestas = soma dos graus ÷ 2`
 
-1. Soma dos graus: ______
-2. Divida por 2: ______ ÷ 2 = ______
-3. Quantas amizades existem no grafo? ______
+1. Soma dos graus: 16
+2. Divida por 2: 16 ÷ 2 = 8
+3. Quantas amizades existem no grafo? 8
 
 ## 7. Passo a passo: calcule a densidade
 A densidade compara as amizades existentes com o total de amizades possíveis.
@@ -84,12 +83,12 @@ Em que:
 - `V` = número de vértices.
 
 Substitua os valores:
-`D = 2 × ____ / (____ × (____ − 1))`
+`D = 2 × 8 / (6 × (6 − 1))`
 
-Resultado decimal: __________  
-Resultado percentual: __________ %
+Resultado decimal: 16/30  = 0,53
+Resultado percentual: 53,3% %
 
-**Interprete:** a rede tem poucas ou muitas das conexões possíveis? Explique com suas palavras.
+**Interprete:** a rede tem poucas ou muitas das conexões possíveis? Representa uma quantidade média das relações de amizade que podem existir dentro deste exemplo, uma vez que cada indivíduo faz 2 ou mais conexões, mas há espaço para que mais conexões existam entre as pessoas existentes no exemplo. 
 
 ________________________________________________________________
 
