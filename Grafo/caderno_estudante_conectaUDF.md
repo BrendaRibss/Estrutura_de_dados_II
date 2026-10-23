@@ -152,6 +152,7 @@ Amplie a rede social:
 2. Crie no mínimo cinco novas amizades.
 3. Atualize a lista de adjacência no Python.
 
+```python
 rede = {
     "Ana": ["Bruno", "Carla", "Gabriela"],
     "Bruno": ["Ana", "Carla", "Diego", "Heitor"],
@@ -178,7 +179,7 @@ print("Total de amizades:", arestas)
 
 densidade = (2 * arestas) / (n * (n - 1))
 print(f"Densidade: {densidade:.2%}")
-
+```
 **Link Google Colab:** https://colab.research.google.com/drive/1qz_35FZ0PN30GiSo1Q8f3U9BCdnM4MZl#scrollTo=Hyr3LMCP9mIy
 4. Recalcule os graus, o total de arestas e a densidade.
 
